@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+body {
+
+font-family: 'Recursive', sans-serif;
+background-color:#e6f5ff;
+}
+
+nav
+{
+overflow: auto;
+}
+
+header {
+	display : flex ;
+	justify-content : space-around ;
+	align-items : center ;
+	 background-color: #1ab2ff;
+}
+
+header2 {
+	display : flex ;
+	justify-content : space-around ;
+	align-items : baseline ;
+	 background-color: #66ccff;
+
+}
+
+.a {}
+.b {}
+
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  padding: 8px 40px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.topnav a:hover {
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+}
+
+.topnav a.active {
+  color: black;
+}
+
+.dropbtn {
+  background-color: #66ccff;
+  color: black;
+  padding: 16px;
+  font-size: 19px;
+  border: none;
+  cursor: pointer;
+  style = "font-family: 'Recursive', sans-serif;"
+
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #e6f5ff;
+}
+
+.fixed-bg {
+	padding: 15px ;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-image: url("back.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    position: relative;
+    font-size: 40px;
+    text-align: center;
+}
+
+.bgrnd {
+	background-image: url("back.png");
+	
+}
+
+.container2 {
+    background: rgba(255,255, 255, 0.9);
+    width: 100%;
+    height: 2000px;
+    border-radius: 50px;
+    margin: 0 auto;
+    border-bottom: 1px solid #ccc;
+    margin-top: 50px;
+	}
+
+
+.column2 {
+  float: left;
+  height : 220px ;
+}
+
+.left2 {
+  width: 33%;
+}
+
+.middle {
+	width : 33% ;
+}
+
+.right2 {
+  width: 33%;
+}
+
+.button {
+	font-family: 'Recursive', sans-serif;
+  	background-color: #2dce89;
+  	border-radius: 5px 5px;
+	border: 1px solid transparent;
+  	color: white;
+  	padding: 10px 20px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+  	cursor: pointer;
+}
+
+.footer {
+    background-color:black;
+    color: #eeeeee;
+    height: 340px;  /* footer height */
+    padding-top: 20px;
+    display: block;
+    margin-top: 0px; /* space between content and footer */
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+	text-align : center;
+}
+
+
+[data-href] { cursor: pointer; }
+tr:hover {
+    
+    background-color: #b3e6ff;
+}
+
+tr:hover td {
+    background-color: transparent;
+}
+
+
+
+.containers
+{
+	
+  width: 1000px;
+  height: 500px;
+  border-radius: 02px;
+  margin: 0 auto;
+  margin-top: 50px;
+  opacity:1;
+  text-align:center;
+	align-items:center;
+}
+
+.containers2
+{
+  width: 550px;
+  height: 350px;
+  margin: 0 auto;
+  margin-top: 50px;
+
+}
+
+.containers3
+{
+  width: 650px;
+  height: 100px;
+  margin: 0 auto;
+  margin-top: 50px;
+
+}
+input[type="text"]
+{
+  display: block;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  padding: 4px;
+  width: 400px;
+  height: 50px;
+  border-radius: 13px;
+  outline: none;
+  border-bottom: 1px solid #aaa;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  transition: 0.2s ease;
+  text-align : center ;
+  font-family: "Recursive", sans-serif;
+}
+.inputDate
+{
+ display: block;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  padding: 4px;
+  width: 400px;
+  height: 50px;
+  border-radius: 13px;
+  outline: none;
+  border-bottom: 1px solid #aaa;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  transition: 0.2s ease;
+  text-align : center ;
+  font-family: "Recursive", sans-serif;
+}
+
+.noDecoration {
+    text-decoration: none;
+    color: black;
+}
+
+
+.fa {
+    padding: 10px;
+    font-size: 15px;
+    width: 35px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 300px;
+  }
+  
+.fa:hover {
+      opacity: 0.9  ;
+  }
+  
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+.txtField {
+	height: 20px;
+	
+}
+
+.table1 {
+	width:85% ;
+	align-items:center;
+	text-align:center;
+}
+}

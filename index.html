@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> UMP Parcel System </title>
+<link rel="stylesheet" href="css/C2.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+</head>
+
+<body style="background-color: #e6f5ff; text-align:center;">
+<header>
+<p>&nbsp; &nbsp; &nbsp; &nbsp; <strong> UMP Parcel System </strong><p>
+<div class = "topnav"> 
+	<a class = "active" href="https://www.ump.edu.my/campus-map"><strong> Locate Us </strong></a>
+	<a class = "active" href="https://www.ump.edu.my/en"> <strong>Help&Support </strong></a>
+	<a class = "active" href="https://www.ump.edu.my/en"><strong>Contact Us</strong></a>
+	<a class = "active" href="https://www.ump.edu.my/en/about"><strong>About</strong></a>
+
+</div>
+
+</header>
+
+<div class="fixed-bg">
+<div class = "container"> 
+<p style = "color : white" > <strong> Login </strong></p>
+</div>
+</div>
+<div class="containers">
+
+    <form action="/login.php" method="POST">
+        
+        <input type="text" name="userID" placeholder="User ID"/>
+        <br>
+		<input type="password" name="password" placeholder="Password"/>
+		<br>
+		<select id="user" name="usertype">
+		<option value="Officer">Pusat Mel Officer</option>
+		<option value="Warden">Residential Warden</option>
+		<option value="Residents">UMP Residents</option>
+  </select>
+  <br><br>
+        <input class="input" type="submit" value ="GO">
+</form>
+    
+</div>
+<br><br>
+
+</body>
+</html>
